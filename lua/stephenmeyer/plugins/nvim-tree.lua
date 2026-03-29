@@ -15,7 +15,8 @@ return {
     -- configure nvim-tree
     nvimtree.setup({
       view = {
-        width = 30
+        width = 30,
+        side = "right",
       },
       -- dsiable window_picker for explorer to work well with window splits
       actions = {
